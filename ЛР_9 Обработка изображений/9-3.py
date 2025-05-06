@@ -15,8 +15,8 @@ for i in range(1, 6):
 from pathlib import Path # Path - для представления путей к файлам и директориям pathlib - предоставляет объектно-ориентированный интерфейс для работы с ФС.
 from PIL import Image
 
-input_folder = Path('D:\АиП\Лабы\ЛР_8 Обработка изображений')
-output_folder = Path('D:\АиП\Лабы\ЛР_8 Обработка изображений\9-3 Обработка')
+input_folder = Path('D:/Projects_1_MD_8/ЛР_9 Обработка изображений')
+output_folder = Path('D:/Projects_1_MD_8/ЛР_9 Обработка изображений/9-3 Обработка')
 
 for i in range(1, 6):
     img = Image.open(input_folder / f'{i}.jpg').convert('L') # 'L' - режим для градаций серого
